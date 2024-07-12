@@ -1,0 +1,6 @@
+d=int(input("Digite a distancia percorrida em metros: "))
+t=int(input("Digite o tempo em segundos: "))
+v=(d/t)
+print("a velocidade é: " + str(v) + " metros por segundo")
+#print("a velocidade é:",v, "metros por segundo")
+#print(f"a velocidade é: {v}" + " metros por segundo")
