@@ -1,0 +1,5 @@
+t1=input("Informe o primeiro time: ")
+t2=input("Informe o segundo time: ")
+t3=input("Informe o terceiro time: ")
+t4=input("Informe o quarto time: ")
+p1=float(input(f"Insira o placar do jogo {t1} contra {t2}: "))
