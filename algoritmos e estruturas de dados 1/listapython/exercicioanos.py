@@ -4,7 +4,7 @@
 dia=int(input("Informe o dia: "))
 mes=int(input("Informe o mês: "))
 ano=int(input("Informe o ano: "))
-if dia > 31 or dia <= 0:
+if dia > 31 or dia <= 0 or mes < 1 or mes >12:
 	print("Data inválida")
 else:
 	if mes == 2 and dia > 28:
