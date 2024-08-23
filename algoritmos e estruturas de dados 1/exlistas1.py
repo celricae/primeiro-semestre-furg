@@ -41,14 +41,57 @@ while cont < len(sapo):
 		sepe += sapo[cont]		
 	cont += 1
 print(sepe)
-'''
+
 #3.b)Leia um nome e faça o espelho do NOME, mantendo a "posição" de cada palavra.
 nome = input("Escreva um nome: ")
 emon = ''
 cont = 0
 cont1 = -1
 while cont < len(nome):
-	
+
+#4.a)Leia um nome e separe as partes.
+nome = input("Escreva um nome: ")
+cont = 1
+nomi = nome[0]
+while cont < len(nome):
+	nomi = nomi + nome[cont]
+	if nome[cont] == " ":
+		nomi = nomi + "\n"
+	cont+=1
+print(nomi)
+'''
+#4.b) Capitalizar o nome. Exemplo: "julia de martini mendes de sá" -> "Julia de Martini Mendes de Sá"
+
+nome = input("Escreva um nome: ")
+cont = 0
+nomi = nome[0]
+while cont < len(nome):
+	letra = nome[cont]
+	num = ord(letra)
+	capital = num - 32
+	nomi = nomi + nome[cont]
+	if nome[cont] == " ":
+		cont += 1
+		nomi = nomi + chr(capital)
+	else:
+		nomi = nomi + nome[cont]
+		cont += 1
+print(nomi)
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
