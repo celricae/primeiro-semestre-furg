@@ -1,0 +1,25 @@
+h1.principal
+    {
+      color:red;
+      text-align:center;
+    }
+  h1.secundario
+    {
+      color:blue;
+      text-align:center
+    }
+  p.principal
+    {
+    color:blue;
+    text-align:left;
+    }
+  p.secundario
+    {
+      color:red;
+      text-align:left;
+    }
+  #testeid
+    {
+      color:green;
+      text-align:center;
+    }

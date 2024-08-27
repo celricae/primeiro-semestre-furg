@@ -1,0 +1,14 @@
+  h1
+    {
+      color:fuchsia;
+      text-align:center;
+    }
+  h2
+  	{
+  		color:blue;
+  	}
+  p.a
+  	{
+  		color:red;
+  		background-color:yellow;
+  	}

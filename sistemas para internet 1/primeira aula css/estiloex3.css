@@ -1,0 +1,27 @@
+body
+  {
+    text-transform:uppercase;
+    font-family:"Courier New", Courier, monospace;
+    font-size:20px;
+  }
+td.b
+  {
+    background-color:blue;
+  }
+td.g
+  {
+    background-color:green;
+  }
+td.p
+  {
+    background-color:fuchsia;  
+  }
+td.r
+  {
+    background-color:red;
+  }
+td.bl
+  {
+   color:white;
+   background-color:black;  
+  }
