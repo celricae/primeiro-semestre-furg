@@ -1,0 +1,12 @@
+table{
+border-width: thin;
+border-style: solid;
+border-color: black;
+background-color: blue;
+font-family:arial;
+text-align:left;
+font-size:14px;
+}
+input.botao{
+background-color:green;
+}

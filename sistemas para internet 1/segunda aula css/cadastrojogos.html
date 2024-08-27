@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="cadastro.css">
+</head>
+
+<body>
+<h1>Cadastro Jogos</h1>
+	<form name="input" action="submetido.html" target="_blank" method="get">
+		<table>
+			<tr>
+				<td>Nome</td>
+				<td colspan="3"><input name="nome" size=40px></td>
+			</tr>
+			<tr>
+				<td>Curso</td>
+			  <td colspan="3"><select>
+        <option value="SI" selected="selected">Sistemas de Informação</option>
+        <option value="EC">Engenharia da Computação</option>
+        <option value="EA">Engenharia de Automação</option>
+        </select>
+      </tr>
+      <tr>
+      	<td>Matricula</td>
+      	<td><input type="name" size=30px></td>
+      	<td>Ano</td>
+        <td><select>
+        <option value="1" selected="selected">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </td>
+        </select>
+			<tr>
+				<td colspan="7"><hr><td>
+			</tr>
+			<tr>
+				<td colspan="4">Jogos de Preferência:<td>
+			</tr>
+			<tr>
+				<td colspan="4"><input type="checkbox" name="esporte" value="volei">Volei
+				<input type="checkbox" name="esporte" value="basquete">Basquete
+				<input type="checkbox" name="esporte" value="hande">Handebol
+				<input type="checkbox" name="esporte" value="Tenis">Tenis
+				<input type="checkbox" name="esporte" value="Futebol">Futebol
+				<input type="checkbox" name="esporte" value="xadrez">Xadrez</td>
+			</tr>
+			<tr>
+				<td colspan="4">Dia de Preferência:</td>
+			</tr>
+			<tr>
+			  <td colspan="4"><input type="radio" name="dia" value="seg"> Seg
+			  <input type="radio" name="dia" value="seg"> Ter
+			  <input type="radio" name="dia" value="seg"> Qua
+			  <input type="radio" name="dia" value="seg"> Qui
+			  <input type="radio" name="dia" value="seg"> Sex</td>
+			<tr>
+			  <td colspan="1" align="center"><input class="botao" type="submit" value="Enviar"></td>
+			  <td colspan="1" align=""><input class="botao" type="reset"></td>
+		</table>
+	</form>
+</body>
+</html>
