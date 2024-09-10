@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="prova.css">
+</head>
+<body>
+  <table>
+      <form name="input" action="submetido.html" target="_blank" method="get">  
+     <tr>
+      <td>
+        <h1>PREENCHA SEUS DADOS CORRETAMENTE</h1>
+        NOME:<input type="text" name="nome" placeholder="Digite seu nome aqui" size="40">
+        IDADE:<input type="text" name="idade" size="10">
+        SENHA: <input type="password" name="senha" placeholder="Digite sua senha aqui">
+      </td>
+    </tr>
+    <tr>
+      <td>Esportes que pratica:<input type="checkbox" name="esporte" value="volei">Volei
+      <input type="checkbox" name="esporte" value="futebol">Futebol
+      <input type="checkbox" name="esporte" value="handebol">Handbol
+      Outro:<input type="text"></td>
+    </tr>
+    <tr>
+      <td>Gosta de doces?<input type="radio"
+name="doce" value="sim">Sim
+      <input type="radio" name="doce" value="nao">Não</td>
+    </tr>
+    <tr>
+      <td>Selecione duas opções de comida <select multiple name="comida">
+        <option value="lasanha">Lasanha</option>
+        <option value="pizza">Pizza</option>
+        <option value="churras">Churrasco</option>
+        <option value="arrozfeijao">Arroz e Feijão</option>
+        <option value="frango">Frango Frito</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td><textarea name="historia" cols="100" rows="9" placeholder="Conte uma historia sobre comida"></textarea></td>
+    </tr>
+    <tr>
+    	<td class="enlim"><input type="submit" value="Enviar">
+		<input type='reset' value='Limpar' name='reset'></td>
+    </tr>
+          </form>
+  </table>
+  
+</body>
+</html>
